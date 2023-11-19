@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p{
+            position:sticky; 
+            top:0 px;
+            background-color: yellow;
+            padding: 20px;
+            font-size: 20px;
+            display: flex;
+            gap:40px;
+            align-items:center;
+            justify-content: space-around;
+        }
+        .p1:hover{
+            background-color: aqua;
+            border: 1px solid orange;
+            padding:30px;
+            border-radius: 40px;
+        }
+        .p2{
+        display: flex;
+
+        }
+        .p3{
+         position:absolute;
+         left:230px;
+         display: flex;
+         justify-content:space-between;
+         flex-direction: column;
+      
+        }
+        .p4:active{
+            background-color: green;
+            border: 1px solid orange;
+            padding:30px;
+            border-radius: 40px;
+        }
+        .icon:hover+.menu{
+           display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="p">
+    <img class="p1" src="./10000_coders_logo.jpg" height="120" width="120" alt="pic">
+    <p> Home</p>
+    <p> About</p>
+    <p>Services</p>
+    <p>Login</p>
+    <p>Sign up</p>
+    <p class="icon">Courses</p>
+    <div class=menu >
+        <ul >
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="p2">
+    <img src="./worried-person.webp" height="200" width="200" alt="pic" border-radius="20px" >
+<div class="p3">
+<p>All my friends have a cushy, high-paying job. Will I ever get a well-paying IT job?</p>
+<p><h1>FEELING HOPELESS THAT YOUR DOOR TO A LUCRATIVE IT JOB IS CLOSED?</h1></p>
+<p>Never again worry about getting a well-paying IT job. This online training program is all you need to get hired by top software companies that you secretly desire to work for. And start earning a average of 4 lakh per annum—GUARANTEED!</p>
+<mark class="p4"><h1>YES I WANT TO JOIN</h1></mark>
+</div></div>
+   
+</body>
+</html>
