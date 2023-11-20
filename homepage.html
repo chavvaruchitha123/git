@@ -40,9 +40,16 @@
             padding:30px;
             border-radius: 40px;
         }
-        .icon:hover+.menu{
-           display: none;
+        #s1{
+           position: absolute;
+           visibility: hidden;
+           top:80px;
+
         }
+        li:hover ul#s1{
+            visibility: visible;
+        }
+        
     </style>
 </head>
 <body>
@@ -53,13 +60,19 @@
     <p>Services</p>
     <p>Login</p>
     <p>Sign up</p>
-    <p class="icon">Courses</p>
-    <div class=menu >
-        <ul >
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-        </ul>
+    <li><p>Courses</p>
+       
+     <ul id="s1">
+    <li>html</li>
+    <li>css</li>
+    <li>javascript</li>
+    </ul>
+
+
+    </li>
+
+           
+    
     </div>
 
 </div>
