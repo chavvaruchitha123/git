@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p1{
+            border: 1px solid black;
+            padding: 40px;
+            width:300px;
+            height: 300px;
+            animation-name: butterfly;
+            animation-duration: 15s;
+            border-radius: 200px;
+            margin-left: 530px;
+            margin-top:-5px;
+        }
+        @keyframes butterfly {
+            20%{background-image: url(./eggs.jpg); background-repeat: no-repeat;
+            background-size: 350px;}
+            40%{background-image: url(./caterpillar.jpg);
+                background-repeat: no-repeat;background-size: 380px;}
+            60%{background-image: url(./pupa.jpg);
+                background-repeat: no-repeat; background-size: 390px;}
+            80%{background-image:url(./emerging\ butterfly.jpg) ;
+                background-repeat: no-repeat; background-size: 380px;}
+            100%{background-image: url(./butterfly.jpg);
+                background-repeat: no-repeat;background-size: 400px; height:280px;width:280px}
+        }
+        .p2{
+            animation-name: cycle;
+            border: 1px solid black;
+            display: inline-block;
+            margin-left: 530px;
+            margin-top:-0.9px;
+            animation-duration: 15s;
+        }
+        @keyframes cycle {
+            20%{color: aqua; background-color: lightgreen;}
+            40%{color: orange; background-color: blueviolet;}
+            60%{color: blue; background-color: darkolivegreen;}
+            80%{color: brown; background-color: orchid;}
+            100%{color: red; background-color: pink;}
+        }
+        body{
+            background-image: url(./background.jpg);
+            background-repeat: no-repeat;
+            background-size: 2500px;
+        }
+    </style>
+    
+
+    
+</head>
+<body>
+    <h1 class="p2">LIFE CYCLE OF BUTTERFLY</h1>
+    <div class="p1">
+        
+    </div>
+</body>
+</html>
+</body>
+</html>
