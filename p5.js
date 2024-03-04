@@ -8,7 +8,7 @@ const banner_url="https://image.tmdb.org/t/p/original"
 
 // requests for movies data
 const requests={
-    fetchTrending:`${base_url}/trending/all/week?${api}&language=en-US`,
+    fetchTrending:`${base_url}/trending/all/week?${api}&language=en-US`, 
     fetchNetflixOriginals:`${base_url}/discover/tv?${api}&with_networks=213`,
     fetchActionMovies:`${base_url}/discover/movie?${api}&with_genres=28`,
     fetchComedyMovies:`${base_url}/discover/movie?${api}&with_genres=35`,
